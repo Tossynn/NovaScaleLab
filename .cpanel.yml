@@ -1,0 +1,8 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/randrirw/novascalelab.com/demo
+        - /bin/cp -R assets $DEPLOYPATH
+        - /bin/cp -R style.css $DEPLOYPATH
+        - /bin/cp -R script.js $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH
