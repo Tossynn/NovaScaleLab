@@ -38,12 +38,12 @@
         text-transform:uppercase;
         font-weight:700
     }
-    .kicker:before{
+    /*.kicker:before{
         content:"";
         width:14px;
         height:1px;
         background:var(--lime)
-    }
+    }*/
     h1{max-width:760px;margin:27px 0 26px;font-size:clamp(64px,9.2vw,124px);line-height:.88;letter-spacing:-.09em;font-weight:570}h1 em{font-family:Georgia,serif;font-weight:400;color:var(--lime);letter-spacing:-.08em}.hero-copy{max-width:490px;color:#c1beb5;font-size:16px;line-height:1.7}.hero-foot{display:flex;align-items:center;justify-content:space-between;margin-top:60px}.hero-foot p{margin:0;color:#85837d;font-size:12px}.round-arrow{display:grid;place-items:center;width:43px;height:43px;border:1px solid #66645c;border-radius:50%;font-size:17px;color:var(--lime);transition:.2s}.round-arrow:hover{background:var(--lime);color:var(--bg);border-color:var(--lime)}.hero-art{height:280px;position:relative;display:grid;place-items:center}.orb{width:min(100%,300px);aspect-ratio:1;border-radius:50%;position:relative;background:radial-gradient(circle at 31% 28%,#fff7c4 0,#d4fb67 8%,#7b963d 24%,#30372a 49%,#171916 68%,#10100f 72%);box-shadow:inset -35px -30px 55px #090a08,0 0 85px #d4fb6715}.orb:before{content:"";position:absolute;width:145%;height:41%;left:-23%;top:30%;border:1px solid #d4fb6790;border-radius:50%;transform:rotate(-24deg);box-shadow:0 0 25px #d4fb6720}.orb:after{content:"N";position:absolute;inset:0;display:grid;place-items:center;color:#10100f;font-size:64px;font-weight:800;letter-spacing:-.12em;text-shadow:0 1px 1px #fff9}.orbit-label{position:absolute;right:0;top:15px;border:1px solid var(--line);border-radius:50%;width:75px;height:75px;display:grid;place-items:center;color:#aaa79b;font-size:10px;letter-spacing:.12em;text-align:center;line-height:1.4;transform:rotate(12deg)}
     .ticker{overflow:hidden;border-bottom:1px solid var(--line);padding:21px 0;color:#77766d;font-size:10px;letter-spacing:.19em;text-transform:uppercase}.ticker-inner{display:flex;justify-content:space-between;gap:25px;white-space:nowrap}.ticker b{color:var(--lime);font-weight:500;margin-right:10px}
     section{padding:105px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:39px}.section-tag{font-size:11px;color:var(--lime);text-transform:uppercase;letter-spacing:.16em}.section-head h2{margin:12px 0 0;font-size:clamp(38px,5.5vw,67px);letter-spacing:-.07em;line-height:.98;font-weight:550}.section-note{max-width:300px;color:var(--muted);font-size:13px;line-height:1.7;margin:0 0 3px}
