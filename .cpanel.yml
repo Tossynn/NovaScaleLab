@@ -5,10 +5,10 @@ deployment:
         
         - /bin/mkdir -p $DEPLOYPATH
 
-        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp index.html services.html about.html contact.html book-launch-support.html amazon-a-plus-content.html branding-visibility.html goodreads-listopia-placement.html sales-funnel-creation.html google-business-profile-optimization.html search-engine-optimization.html $DEPLOYPATH
 
         - /bin/mkdir -p $DEPLOYPATH/css
-        - /bin/cp css/style.css $DEPLOYPATH/css/
+        - /bin/cp css/*.css $DEPLOYPATH/css/
 
         - /bin/mkdir -p $DEPLOYPATH/js
-        - /bin/cp js/script.js $DEPLOYPATH/js/
+        - /bin/cp js/*.js $DEPLOYPATH/js/

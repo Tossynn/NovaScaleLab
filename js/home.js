@@ -1,0 +1,1 @@
+document.querySelectorAll('.scroll-cue').forEach(link=>link.addEventListener('click',event=>{const target=document.querySelector('#services-preview');if(target){event.preventDefault();target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}}));
